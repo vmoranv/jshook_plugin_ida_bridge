@@ -1,0 +1,4 @@
+name: ida-bridge
+description: Atomic bridge plugin exposing ida_bridge only.
+author: vmoranv
+source_repo: https://github.com/vmoranv/jshook_plugin_ida_bridge
