@@ -1,8 +1,14 @@
 {
-  "extends": "../../tsconfig.package.base.json",
   "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "rootDir": ".",
-    "outDir": "dist"
+    "outDir": "dist",
+    "types": ["node"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["manifest.ts"],
   "exclude": ["dist", "node_modules"]
